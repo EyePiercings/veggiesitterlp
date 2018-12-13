@@ -1,6 +1,10 @@
 .header-color {
-  background: white;
-  color: white;
+  /*background: linear-gradient(#ffffff, #ffffff);*/
+}
+
+.header-link {
+  text-decoration: none;
+  color: black;
 }
 
 .landing-grid {
@@ -15,6 +19,13 @@
   height: 120%;
 }
 
+#title-separator {
+  border-top: 4px solid rgb(24, 180, 24);
+  width: 35%;
+  margin-left: auto; 
+  margin-right: auto; /* margin-left and margin-right both set to auto will center a horizonal line tag */
+}
+
 .banner-text {
   position: relative;
   padding: 10px;
@@ -22,19 +33,26 @@
   top: 10%;
 }
 
-.banner-text h1 {
+.banner-text h4 {
   text-align: center;
   color: black;
-  size: 50%;
+  margin-top: -10px;
+  margin-bottom: -15px;
+  font-weight: 900;
 }
 
 .banner-text p {
-  border: 10px solid black;
   color: black;
   text-align: center;
+  margin: 50px;
+  margin-top: -15px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 35%;
 }
 
 .banner-text hr {
+  text-align: center;
   border-top: 5px black dotted;
   margin: 20px;
 }
@@ -44,7 +62,7 @@
   border: 1px solid black;
   background: #33CC66;
   opacity: .1;
-  box-shadow: 5px 10px 5px grey;
+  box-shadow: 0 0 5px 5px grey; /* @param h-offset v-offset blur spread color */
   /*position: relative;*/
   padding: 10x;
   margin: 0 auto;
