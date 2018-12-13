@@ -1,0 +1,9 @@
+Font:
+Century Gothic is the logo font so it should be used throughout the web page.
+
+Color:
+White background;
+
+Video-Box:
+The green background to overlay the video when it's not playing or paused. Overlayed over the thumbnail. Goes away when the video is playing.
+
