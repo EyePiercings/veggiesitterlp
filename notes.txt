@@ -7,3 +7,25 @@ White background;
 Video-Box:
 The green background to overlay the video when it's not playing or paused. Overlayed over the thumbnail. Goes away when the video is playing.
 
+Subscribe Button:
+Make it an action prompt. Once pressed, a window opens that is overlayed on the page. The rest of the page is darkened around the window. There the window will prompt the user for their email and name which will connect to an excel or something.
+
+<div className="demo-big-content">
+      <Layout>
+          <Header className="header-color" title={<Link style={{textDecoration: 'none', color: 'black'}} to= '/'>Veggie Sitter</Link>} scroll>
+              <Navigation>
+                  <Link to="/about">About</Link>
+              </Navigation>
+          </Header>
+          <Drawer title={<Link style={{textDecoration: 'none', color: 'white'}} to= '/'>Veggie Sitter</Link>}>
+              <Navigation>
+                  <Link to="/about">About</Link>
+              </Navigation>
+          </Drawer>
+          <Content>
+              <div className="page-content" />
+              <Main />
+          </Content>
+          
+      </Layout>
+  </div>
