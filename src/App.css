@@ -1,5 +1,5 @@
 .header-color {
-  /*background: linear-gradient(#ffffff, #ffffff);*/
+  background: linear-gradient(#ffffff, #ffffff);
 }
 
 .header-link {
@@ -7,16 +7,15 @@
   color: black;
 }
 
-.landing-grid {
-  background: white;
+.logo {
+  width: 50%;
+  height: 50%;
+}
 
+.landing-grid {
   font-family: "Century Gothic", sans-serif;
-  text-align: center;
-  position: absolute;
-  top: 0;
-  left: 0;
+  position: relative;
   width: 100%;
-  height: 120%;
 }
 
 #title-separator {
@@ -26,6 +25,25 @@
   margin-right: auto; /* margin-left and margin-right both set to auto will center a horizonal line tag */
 }
 
+#opening-text {
+  text-align: left;
+  color: black;
+  margin-left: -150px;
+  margin-top: 75px;
+  max-width: 400px;
+  font-size: 60px;
+  font-weight: 900;
+  overflow-wrap: break-word;
+}
+
+#under-opening {
+  text-align: left;
+  color: black;
+  margin-left: -150px;
+  margin-top: 50px;
+  max-width: 400px;
+}
+
 .banner-text {
   position: relative;
   padding: 10px;
@@ -33,12 +51,14 @@
   top: 10%;
 }
 
-.banner-text h4 {
-  text-align: center;
+.banner-text h1 {
+  text-align: left;
   color: black;
-  margin-top: -10px;
-  margin-bottom: -15px;
+  margin-left: -150px;
+  max-width: 400px;
+  font-size: 60px;
   font-weight: 900;
+  overflow-wrap: break-word;
 }
 
 .banner-text p {
@@ -63,7 +83,6 @@
   background: #33CC66;
   opacity: .1;
   box-shadow: 0 0 5px 5px grey; /* @param h-offset v-offset blur spread color */
-  /*position: relative;*/
   padding: 10x;
   margin: 0 auto;
   height: 80%;
